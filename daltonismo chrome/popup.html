@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: sans-serif;
+      width: 230px;
+      padding: 10px;
+      margin: 0;
+    }
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+    }
+    h3 {
+      font-size: 12px;
+      margin: 0;
+      color: #333;
+    }
+    #btn-lang {
+      background-color: #e2e8f0;
+      border: 1px solid #cbd5e1;
+      border-radius: 3px;
+      padding: 3px 6px;
+      font-size: 9px;
+      font-weight: bold;
+      cursor: pointer;
+      width: auto;
+      margin: 0;
+    }
+    #btn-lang:hover { background-color: #cbd5e1; }
+    .section-title {
+      font-size: 11px;
+      font-weight: bold;
+      color: #555;
+      margin-top: 8px;
+      margin-bottom: 3px;
+    }
+    button {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 3px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #f8f8f8;
+      font-size: 10px;
+      text-align: left;
+      outline: none;
+    }
+    button:hover, button:focus {
+      background-color: #e6e6e6;
+      border-color: #bbb;
+    }
+    #btn-reset {
+      background-color: #ffdddd;
+      border-color: #ff9999;
+      text-align: center;
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 11px;
+    }
+    #btn-reset:hover, #btn-reset:focus {
+      background-color: #ffcccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-container">
+    <h3 id="txt-title">Acessibilidade</h3>
+    <button id="btn-lang">EN</button>
+  </div>
+
+  <div class="section-title" id="txt-sec-corr">Correção (Para Daltônicos)</div>
+  <button id="btn-correct-protanopia" data-i18n="protanopia">Protanopia (Vermelho)</button>
+  <button id="btn-correct-protanomalia" data-i18n="protanomalia">Protanomalia (Vermelho Parcial)</button>
+  <button id="btn-correct-deuteranopia" data-i18n="deuteranopia">Deuteranopia (Verde)</button>
+  <button id="btn-correct-deuteranomalia" data-i18n="deuteranomalia">Deuteranomalia (Verde Parcial)</button>
+  <button id="btn-correct-tritanopia" data-i18n="tritanopia">Tritanopia (Azul/Amarelo)</button>
+  <button id="btn-correct-tritanomalia" data-i18n="tritanomalia">Tritanomalia (Azul Parcial)</button>
+
+  <div class="section-title" id="txt-sec-sim">Simulação (Como Enxergam)</div>
+  <button id="btn-sim-protanopia" data-i18n="simProtanopia">Protanopia (Vermelho)</button>
+  <button id="btn-sim-protanomalia" data-i18n="simProtanomalia">Protanomalia (Vermelho Parcial)</button>
+  <button id="btn-sim-deuteranopia" data-i18n="simDeuteranopia">Deuteranopia (Verde)</button>
+  <button id="btn-sim-deuteranomalia" data-i18n="simDeuteranomalia">Deuteranomalia (Verde Parcial)</button>
+  <button id="btn-sim-tritanopia" data-i18n="simTritanopia">Tritanopia (Azul/Amarelo)</button>
+  <button id="btn-sim-tritanomalia" data-i18n="simTritanomalia">Tritanomalia (Azul Parcial)</button>
+
+  <button id="btn-reset" data-i18n="reset">Desativar Filtros</button>
+  <script src="popup.js"></script>
+</body>
+</html>
