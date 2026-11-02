@@ -55,3 +55,12 @@ Uma extensão de navegador leve e bilíngue (PT-BR / EN) para Chrome e Firefox q
 ### Instalação e Testes
 * **Chrome:** Carregue a pasta `daltonismo chrome` como extensão não empacotada em `chrome://extensions/`.
 * **Firefox:** Carregue temporariamente em `about:debugging#/runtime/this-firefox` usando a pasta `daltonismo firefox`.
+
+
+Demonstração:
+
+<img width="1955" height="1191" alt="Image" src="https://github.com/user-attachments/assets/ceab03fd-835b-4491-8afb-99ef3c54c4c4" />
+
+<img width="1950" height="1191" alt="Image" src="https://github.com/user-attachments/assets/6a190eca-5517-4c37-a361-7b33243e9413" />
+
+<img width="1952" height="1192" alt="Image" src="https://github.com/user-attachments/assets/cd0e800e-6e10-4682-839a-52cc45a76a4e" />
