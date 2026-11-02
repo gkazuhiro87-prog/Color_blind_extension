@@ -2,7 +2,11 @@
   "manifest_version": 3,
   "name": "Acessibilidade Visual - Daltonismo",
   "version": "1.1",
+<<<<<<< HEAD
   "description": "Aplica correções e simulações de cores em tempo real.",
+=======
+  "description": "Aplica correções e simulações de cores em tempo real com salvamento automático.",
+>>>>>>> 950a9c5ee82d84fa35982a3c3793d372502d7aa5
   "permissions": [
     "activeTab",
     "scripting",
@@ -17,6 +21,7 @@
       "js": ["content.js"],
       "run_at": "document_end"
     }
+<<<<<<< HEAD
   ],
   "browser_specific_settings": {
     "gecko": {
@@ -24,4 +29,7 @@
       "strict_min_version": "109.0"
     }
   }
+=======
+  ]
+>>>>>>> 950a9c5ee82d84fa35982a3c3793d372502d7aa5
 }
